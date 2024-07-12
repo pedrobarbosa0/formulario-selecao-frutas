@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Seleção de Frutas</title>
+</head>
+<body>
+    <form id="formularioFrutas">
+        <label><input type="checkbox" name="fruta" value="Maçã"> Maçã</label><br>
+        <label><input type="checkbox" name="fruta" value="Uva"> Uva</label><br>
+        <label><input type="checkbox" name="fruta" value="Banana"> Banana</label><br>
+        <label><input type="checkbox" name="fruta" value="Caja"> Caja</label><br>
+        <label><input type="checkbox" id="outraCheckbox" name="fruta" value="Outra"> Outra</label>
+        <input type="text" id="outraTexto" style="display:none;"><br>
+        <button type="button" id="botaoSubmeter">Botão</button>
+    </form>
+    <div id="frutasSelecionadas" style="display:none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
